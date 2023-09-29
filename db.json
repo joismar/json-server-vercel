@@ -1,9 +1,152 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Lombo"
+      },
+      {
+        "id": 5,
+        "tipo": "Vegana"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Picles"
+      },
+      {
+        "id": 5,
+        "tipo": "Ovo de codorna"
+      },
+      {
+        "id": 6,
+        "tipo": "Salame"
+      },
+      {
+        "id": 7,
+        "tipo": "Maionese caseira"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "burgers": [
+    {
+      "nome": "andre",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "André Luís",
+      "carne": "Maminha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "kfoekfr frokfrokf fr",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Orégano"
+      ],
+      "status": "Finalizado",
+      "id": 4
+    }
   ],
-  "profile": { "name": "typicode" }
+  "contatos": [
+    {
+      "nome": "xande",
+      "numero": 81987878787,
+      "id": 3
+    },
+    {
+      "nome": "Daiane e Rodrigo Consultoria F",
+      "numero": 81987298740,
+      "id": 4
+    }
+  ],
+  "cadastro": [
+    {
+      "nome": "Daiane e Rodrigo Consultoria Financeira ME",
+      "senha": "leirhiehbrvluiehrgi",
+      "id": 1
+    },
+    {
+      "nome": "Daiane e Rodrigo Consultoria F",
+      "senha": "plpl",
+      "id": 2
+    },
+    {
+      "nome": "joismar",
+      "senha": "123",
+      "id": 3
+    }
+  ]
 }
